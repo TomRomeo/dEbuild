@@ -1,0 +1,28 @@
+.\" This is a comment line, which wont appear in the man page.                                                                    
+.TH dEbuild 1 2021-01-03
+
+.SH NAME
+dEbuild \- A simple shell script to write ebuilds
+
+.SH SYNOPSIS
+.B dEbuild
+[\fB\-n\fR]
+[\fB\-\-new\fR]
+
+.SH DESCRIPTION
+dEbuild is a simple shell script that aims to simplify the process of creating ebuild files by providing an easy way to add dependencies.
+Invocing dEbuild without any arguments will copy your selected dependencies to the clipboard. Adding the \fB\-n\fR option will create a completely new file.
+
+.SH OPTIONS
+.TP
+.BR \-n ", " \-\-new
+will create a new ebuild file with a basic skeleton.
+
+.SH SEE ALSO
+.IR dmenu(1) ", " xclip(1)
+
+.SH BUGS
+Bugs can be reported via github.
+
+.SH AUTHOR
+Tom
